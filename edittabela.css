@@ -1,0 +1,93 @@
+body{
+    background-color: lightgray;
+}
+#divtudo{
+    width: 80%;
+    margin: auto;
+    background-color: white;
+}
+#divcabeçario{
+    background-color: black;
+    width: 100%;
+    margin: auto;
+    border-radius: 25px;
+}
+#divimg{
+    width: 15%;
+    float: left;
+}
+h1{
+    color: white;
+}
+#divh1{
+    width: 85%;
+    float: left;
+}
+table{
+    width: 100%;
+}
+
+
+.imagenspilotos{
+    width: 76px;
+    height: 76px;
+}
+.titulosgrandes{
+    text-align: center;
+    width: 100%;
+    float: left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.corh1{
+    color: black;
+}
+div{
+    background-color: white;
+}
+.divpistas{
+    width: 40%;
+    float: left;
+}
+#divbaixo{
+    width: 100%;
+}
+
+.divgp{
+    float: right;
+    width: 60%;
+}
+ul{
+    text-align: left;
+}
+span{
+    color: orange;
+}
+#divcima{
+    width: 100%;
+    background-color: white;
+}
+#divabaixo{
+    width: 100%;
+    background-color: white;
+}
+#divaustralia{
+    float: left;
+    width: 50%;
+}
+#divbahrein{
+    width: 50%;
+    float: left;
+}
+#divvietna{
+    float: left;
+    width: 50%;
+}
+#divchina{
+    width: 50%;
+    float: left;
+}
+.imagenspistas{
+    width: 100px;
+    height: 150px;
+}
