@@ -1,0 +1,56 @@
+.divtitulo{
+    border-radius: 25px;
+    
+}
+.img{
+    border-style: solid;
+    border-color: grey;
+}
+.divimg{
+    float: left;
+    width: 30%;
+    
+}
+.divtexto1{
+    float: right;
+    width: 70%;
+}
+.divdesc{
+    float: left;
+    width: 100%;
+}
+.divsuperior{
+    border-bottom: 2px gray;
+}
+.h3{
+    float: left;
+    width: 100%;
+}
+.divgrande{
+    width: 100%;
+}
+.divesquerda{
+    float: left;
+    width: 49%;
+}
+.divmeio{
+    width: 1%;
+    min-height: 540px;
+    float: left;;
+}
+.divdireita{
+    float: right;
+    width: 49%;
+}
+#divtitulos{
+    border-bottom: green;
+    border-bottom-style: solid;
+}
+.divobj{
+    width: 100%;
+    float: left;
+}
+.divbody{
+    width: 50%;
+    margin: auto;
+}
