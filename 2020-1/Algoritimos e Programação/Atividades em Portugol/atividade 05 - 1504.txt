@@ -1,0 +1,26 @@
+Algoritmo "05"
+//5. Ler três números e verificar se a soma deles é maior que 50.
+//Se for, escrever uma mensagem informando.
+
+
+Var
+    num1, num2, num3: inteiro
+
+
+Inicio
+       escreva("digite um numero: ")
+        leia(num1)
+        escreva("digite outro numero: ")
+        leia(num2)
+        escreva("digite mais um numero: ")
+        leia(num3)
+
+    se(num1+num2+num3>=50)entao
+        escreva("a soma é maior que 50!!")
+
+    senao
+        escreva("a soma não é maior que 50!!")
+    fimse
+
+
+Fimalgoritmo

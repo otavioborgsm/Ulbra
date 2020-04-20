@@ -1,0 +1,32 @@
+Algoritmo "AP1 02"
+// Disciplina   : Algoritmos e Programação
+// Professor   : Adriana Bueno da Silva
+// Autor(a)    : Otávio de Medeiros Borges
+// Data atual  : 08/04/2020
+//2. Faça um algoritmo para ler: quantidade atual em estoque, quantidade máxima em estoque e quantidade mínima em estoque de um produto.
+// Calcular e escrever a quantidade média ((quantidade média = quantidade máxima + quantidade mínima)/2).
+// Se a quantidade em estoque for maior ou igual a quantidade média escrever a mensagem 'Não efetuar compra', senão escrever a mensagem 'Efetuar compra'.
+
+
+Var
+atual, min, max: inteiro
+media: real
+
+Inicio
+      escreva("Digite a quantidade atual em estoque: ")
+      leia(atual)
+      escreva("Digite a quantidade máxima em estoque: ")
+      leia(max)
+      escreva("Digite a quantidade minima em estoque: ")
+      leia(min)
+      
+      media<-(min+max)/2
+      escreval("A média é: ",media)
+      se(atual>=media) entao
+      escreval("Não efetuar compra")
+      senao
+      escreva("Efetuar Compra")
+      fimse
+
+
+Fimalgoritmo

@@ -1,0 +1,53 @@
+Algoritmo "AP1 03"
+// Disciplina   : Algoritmos e Programação
+// Professor   : Adriana Bueno da Silva
+// Autor(a)    : Otávio de Medeiros Borges
+// Data atual  : 08/04/2020
+// 3. Para a entrada de uma festa, existe a seguinte promoção de acordo com a cor da camiseta da pessoa:
+//·  	Camiseta rosa: ingresso R$20,00
+//·  	Camiseta azul: ingresso R$ 30,00
+//·  	Camiseta preta: Mulheres: R$ 10,00 – homens: R$15,00
+//·  	Camiseta laranja: R$ 25,00
+//·  	Demais cores: Maiores de 30 anos: R$45,00 – Menores ou com 30 anos: R$40,00
+//Usando a múltipla escolha, faça um algoritmo que leia a cor da camiseta, e dê o valor do ingresso a ser pago pela pessoa. Caso seja necessário, leia  a idade e o sexo.
+
+Var
+   camiseta, sexo: caractere
+   idade: inteiro
+
+
+
+Inicio
+      escreval("ESTE ALGORITMO FUNCIONA APENAS COM LETRAS MAIÚSCULAS.")
+      escreva("Qual a cor de sua camiseta?: ")
+      leia(camiseta)
+escolha camiseta
+      caso  "ROSA"
+      escreva("Valor do ingresso: R$20,00")
+      caso  "AZUL"
+      escreva("Valor do ingresso: R$30,00")
+      caso  "PRETA"
+      escreva("Sexo: ")
+      leia(sexo)
+      se (sexo=  "MASCULINO")entao
+      escreva("Valor do ingresso: R$15,00")
+      senao(sexo=  "FEMININO")entao
+      escreva("Valor do ingresso: R$10,00")
+      fimse
+      caso  "LARANJA"
+      escreva("Valor do ingresso: R$25,00")
+      outrocaso
+      escreva("Qual sua idade?: ")
+      leia (idade)
+      se (idade <=30) entao
+      escreva("Valor do ingresso: R$40,00")
+      senao
+      escreva("Valor do ingresso: R$45,00")
+      fimse
+      
+fimescolha
+
+
+
+
+Fimalgoritmo

@@ -1,0 +1,29 @@
+Algoritmo "03"
+//3. para reajustar o salário de acordo com a função.
+//Se for técnico, aumentar o salário 50%, se for gerente, aumentar 30% e se for outro cargo, aumentar 20%.
+
+Var
+cargo: caractere
+salario, novo_salario: real
+
+
+Inicio
+escreval("ESTE ALGORITMO FUNCIONA APENAS COM LETRAS MAIÚSCULAS")
+escreva("Digite seu salário: ")
+leia(salario)
+escreva("Digite sua função na empresa: ")
+leia(cargo)
+           escolha cargo
+           caso "TÉCNICO"
+                novo_salario<- salario*1.5
+                escreva("O salário atual é: ",novo_salario)
+           caso "GERENTE"
+                novo_salario<-  salario*1.3
+                escreva("O salário atual é: ",novo_salario)
+           outrocaso
+                    novo_salario<- salario*1.2
+                    escreva("O salário atual é: ",novo_salario)
+           fimescolha
+
+
+Fimalgoritmo

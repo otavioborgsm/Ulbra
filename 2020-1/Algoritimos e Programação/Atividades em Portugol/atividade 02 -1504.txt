@@ -1,0 +1,31 @@
+Algoritmo "02"
+//2. Faça um algoritmo que leia um mês e diga qual a estação do ano correspondente (Primavera, Verão, Outono, Inverno).
+
+//Considere: outono - abril, maio e junho
+//Inverno - julho, agosto e setembro
+//Primavera – outubro, novembro e dezembro
+//Verão – janeiro, fevereiro e março
+
+Var
+   mes: caractere
+
+
+Inicio
+      escreval("ESTE ALGORITMO FUNCIONA APENAS COM LETRAS MAIÚSCULAS.")
+      escreva("Digite um mês do ano: ")
+      leia (mes)
+escolha mes
+        caso "ABRIL" , "MAIO" , "JUNHO"
+        escreva("A estação é outono.")
+        caso "JULHO" , "AGOSTO" , "SETEMBRO"
+        escreva("A estação é inverno.")
+        caso "OUTUBRO" , "NOVEMBRO" , "DEZEMBRO"
+        escreva("A estação é primavera.")
+        caso "JANEIRO" , "FEVEREIRO" , "MARÇO"
+        escreva("A estação é verão.")
+        outrocaso
+        escreva("Mês não encontrado.")
+fimescolha
+
+
+Fimalgoritmo

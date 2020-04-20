@@ -1,0 +1,37 @@
+Algoritmo "Ap1 01"
+// Disciplina   : Algoritmos e Programação
+// Professor   : Adriana Bueno da Silva
+// Autor(a)    : Otávio de Medeiros Borges
+// Data atual  : 08/04/2020
+// 1. Uma loja de sapatos precisa fazer uma promoção para seus clientes.
+// O cliente que comprar 2 pares de sapato terá o desconto de 15% e se comprar 3 pares ou mais ganha desconto de 30%.
+//Faça um algoritmo que leia o valor total da compra e o número de pares de sapatos.
+// Se forem 2 ou mais calcule o desconto e escreva valor da compra e valor com desconto.
+Var
+   valor, resultado: real
+   pares: inteiro
+Inicio
+      escreva("Digite o valor da sua compra: ")
+      leia(valor)
+      escreva("Escreva o número de pares: ")
+      leia(pares)
+escolha(pares)
+              caso 0
+              escreva("Você não adquiriu produtos")
+      caso 1
+      resultado<-valor
+      escreva("O valor da compra é: ",resultado)
+      caso 2
+      resultado<-valor*0.85
+      escreva("O valor da compra é: ",resultado)
+      caso 3
+      resultado<-valor*0.7
+      escreva("O valor da compra é: ",resultado)
+      outrocaso
+      resultado<-valor*0.7
+      escreva("O valor da compra é: ",resultado)
+fimescolha
+
+
+
+Fimalgoritmo
