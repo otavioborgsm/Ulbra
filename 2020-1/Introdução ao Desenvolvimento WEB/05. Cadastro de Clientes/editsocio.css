@@ -1,0 +1,59 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(112, 167,224);
+}
+header{
+    width: 100%;
+    background-color: black;
+    display: inline-block;
+}
+h1{
+    color: white;
+}
+section{
+    width: 80%;
+    margin: auto;
+}
+article{
+    background-color: white;
+    width: 100%;
+    padding-top: 10px;
+}
+label{
+    padding-left: 15px;
+}
+fieldset{
+    width: 95%;
+    margin: auto;
+    padding-bottom: 10px;
+}
+form{
+    padding-bottom: 20px;
+}
+.divh2{
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+#divimg{
+    width: 25%;
+    float: left;
+    background-color: black;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#divh1{
+    width: 75%;
+    float: left;
+    background-color: black;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+#divenviar{
+    padding-left: 15px;
+}
+
