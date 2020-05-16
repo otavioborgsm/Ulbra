@@ -1,0 +1,15 @@
+Algoritmo "02"
+//2. Faça um programa para ler um número inteiro, e enquanto ele for positivo,
+//subtrair um (numero = numero – 1), e escrever o valor na tela.
+
+var
+j: inteiro
+inicio
+      escreva("Digite um número inteiro: ")
+      leia(j)
+
+repita
+   escreval (j)
+   j <- j - 1
+ate j =0
+fimalgoritmo

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UEFA CHAMPIONS LEAGUE</title>
+    <link rel="icon" href="imagens/ucl.png">
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!-- /bootstrap-->
+</head>
+<body id="ucl">
+    <nav class="navbar navbar-expand-lg ">
+        <a class="navbar-brand" href="#ucl"><img src="imagens/ucl.png" id="ucl-img"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#divnavbar">
+            <span class="navbar-toggler-icon"></span>
+            <img src="imagens/linhas.png" alt="button" id="img-button">
+        </button>
+        <div class="collapse navbar-collapse" id="divnavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <h2>UEFA CHAMPIONS LEAGUE</h2>
+                </li>
+                <li class="nav-item">
+                    <a href="#noticias" class="nav-link anchor">Noticias</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#jogadores" class="nav-link anchor">Jogadores</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </nav>
+    <div class="container-fluid divtitulos" >
+        <h1 id="noticias">NOTICIAS</h1>
+    </div>
+    <header class="container">
+        <div id="demo" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+              <li data-target="#demo" data-slide-to="3"></li>
+            </ul>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="imagens/lewa.jpg" alt="lewa" width="1100" height="500">
+                <div class="carousel-caption">
+                    <h3>ARTILHEIRO</h3>
+                    <p>Robert Lewandowisk marca contra o Chelsea e chega a marca de 11 gols. </p>
+                </div>   
+              </div>
+              <div class="carousel-item">
+                <img src="imagens/psg.jpg" alt="PSG" width="1100" height="500">
+                <div class="carousel-caption">
+                    <h3>CLASSIFICADOS</h3>
+                    <p>PSG se classifica com gol de Neymar.</p>
+                </div>   
+              </div>
+              <div class="carousel-item">
+                <img src="imagens/estadio.jpg" alt="pandemia" width="1100" height="500">
+                <div class="carousel-caption">
+                    <h3>PANDEMIA</h3>
+                    <p>Jogos são adiados devido ao Novo Coronavírus.</p>
+                </div>   
+              </div>
+              <div class="carousel-item">
+                <img src="imagens/gj33.jpg" alt="rm" width="1100" height="500">
+                <div class="carousel-caption">
+                    <h3>SEM DEFINIÇÃO</h3>
+                    <p>Alguns confrontos ainda não estão definidos, e terão de aguardar o retorno dos jogos.</p>
+                </div>   
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+
+    </header>
+    <div class="container-fluid divtitulos" >
+        <h1 id="jogadores">JOGADORES</h1>
+    </div>
+    <section class="conteiner fluid">
+        <div class="row">    
+            <div class="col-12 col-md-4 text-center">
+                <div class="card" style="width: 100%">
+                    <img class="card-img-top" src="imagens/messi.jpg" alt="messi" style="width:100%">
+                    <div class="card-body">
+                      <h4 class="card-title">PRESSÃO</h4>
+                      <p class="card-text">Messi não ganha a competição desde 2015, e nos ultimos anos, vem sendo eliminado de forma humilhante.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 text-center">
+                <div class="card" style="width:100%">
+                    <img class="card-img-top" src="imagens/buffon.jpg" alt="buffon" style="width:100%">
+                    <div class="card-body">
+                      <h4 class="card-title">LONGE DE APOSENTAR</h4>
+                      <p class="card-text">"Não me aposento porque me sinto bem", diz o experiente goleiro Buffon, aos 42 anos.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 text-center">
+                <div class="card" style="width:100%">
+                    <img class="card-img-top" src="imagens/atm.jpg" alt="buffon" style="width:100%">
+                    <div class="card-body">
+                      <h4 class="card-title">NOVO HERÓI</h4>
+                      <p class="card-text">Após gol da classificação contra o Liverpool, Marcos Llorente se torna novo xodó da torcida.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="row2">
+            <div class="col-12 col-md-4 text-center">
+                <div class="card" style="width: 100%">
+                    <img class="card-img-top" src="imagens/cristiano.jpg" alt="cr7" style="width:100%">
+                    <div class="card-body">
+                      <h4 class="card-title">QUARENTENA</h4>
+                      <p class="card-text">Cristiano Ronaldo treina em casa e tenta manter a forma.</p>
+                    </div>
+                </div>
+            </div>
+                <div class="col-12 col-md-4 text-center">
+                    <div class="card" style="width:100%">
+                        <img class="card-img-top" src="imagens/neymar.jpg" alt="ney" style="width:100%">
+                        <div class="card-body">
+                        <h4 class="card-title">EM SOLO BRASILEIRO</h4>
+                        <p class="card-text">Neymar passa quarentena no Rio mas dispensa visitas.</p>
+                        </div>
+                    </div>
+            </div>
+            <div class="col-12 col-md-4 text-center">
+                <div class="card" style="width:100%">
+                    <img class="card-img-top" src="imagens/dybala.jpg" alt="buffon" style="width:100%">
+                    <div class="card-body">
+                      <h4 class="card-title">RECUPERADO</h4>
+                      <p class="card-text">Após testar positivo quatro vezes, Dybala está recuperado do Covid-19.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+<footer class="page-footer">
+
+    <div class="container">
+  
+      <div class="row">
+  
+        <div class="col-12 py-5">
+            <div id="icons">
+                <a class="fb-ic" href="https://www.facebook.com/ChampionsLeague/">
+                    <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                </a>
+                <a class="tw-ic" href="https://twitter.com/ChampionsLeague">
+                    <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                </a>
+                <a class="ins-ic" href="https://www.instagram.com/championsleague/?hl=pt-br">
+                    <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                </a>
+            </div>
+        </div>
+        
+      </div>
+      
+    </div>
+  
+    
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="https://www.uefa.com/uefachampionsleague/"> UEFA.com/UEFAChampionsLeague</a>
+    </div>
+  
+  </footer>
+
+    
+</body>
+</html>

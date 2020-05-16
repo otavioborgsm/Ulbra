@@ -1,0 +1,16 @@
+Algoritmo "01"
+//1. Faça um programa que mostre na tela todos os números de 1 a 100 usando laço
+//de repetição enquanto.
+
+var
+ j: inteiro
+Inicio
+
+j <- 1
+repita
+
+escreval (j)
+j <- j + 1
+
+ate j > 100
+Fimalgoritmo

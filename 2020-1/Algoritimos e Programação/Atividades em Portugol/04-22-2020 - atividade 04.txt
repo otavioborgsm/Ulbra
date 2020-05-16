@@ -1,0 +1,16 @@
+Algoritmo "04"
+//4. ESCREVA UM ALGORITMO QUE IMPRIMA OS NÚMEROS ÍMPARES EXISTENTES DE
+//ENTRE 1(INCLUSIVE) E 9(INCLUSIVE).
+
+Var
+x: inteiro
+
+
+Inicio
+      escreva("Numeros Ímpares de 1 e 10: ")
+      para x de 1 ate 9 passo 2 faca
+           escreval("",x)
+      fimpara
+
+
+Fimalgoritmo

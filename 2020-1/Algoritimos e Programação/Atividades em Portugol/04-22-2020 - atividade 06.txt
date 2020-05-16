@@ -1,0 +1,15 @@
+Algoritmo "06"
+// 6. ESCREVA UM ALGORITMO QUE IMPRIMA A TABUADA DO 8 UTILIZANDO UMA
+//ESTRUTURA DE REPETIÇÃO.
+Var
+x: inteiro
+
+
+Inicio
+      escreva("Tabuada do 8: ")
+      para x de 0 ate 80 passo 8 faca
+           escreval("",x)
+      fimpara
+
+
+Fimalgoritmo

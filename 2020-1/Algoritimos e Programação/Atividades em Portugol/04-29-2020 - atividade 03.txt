@@ -1,0 +1,23 @@
+Algoritmo "03"
+//3. Faça um programa que leia teclas digitadas do teclado até que o usuário
+//pressione a tecla W.
+
+var
+ j: caractere
+Inicio
+
+
+repita
+      escreva ("Digite alguma tecla: ")
+      leia(j)
+
+      se (j <>"W")entao
+         escreval ("Digito errado, tente novamente!")
+      senao
+           escreval("Digito correto!!")
+      fimse
+
+
+
+ate (j ="W")
+Fimalgoritmo
