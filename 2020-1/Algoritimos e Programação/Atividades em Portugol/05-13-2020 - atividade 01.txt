@@ -1,0 +1,59 @@
+Algoritmo "01"
+// 1. Escreva um algoritmo usando o comando “para” (for) que exiba na tela a tabuada completa (de 1x1=1 ate´ 10x10=100).
+// Capriche para que ela saia igual a que voce^ usava na escola.
+Var
+x: inteiro
+
+
+Inicio
+      escreval("Tabuada do 1: ")
+      para x de 1 ate 10 passo 1 faca
+           escreval(" ",x)
+      fimpara
+      
+      escreval("Tabuada do 2: ")
+      para x de 2 ate 20 passo 2 faca
+           escreval(" ",x)
+      fimpara
+
+      escreval("Tabuada do 3: ")
+      para x de 3 ate 30 passo 3 faca
+           escreval(" ",x)
+      fimpara
+      
+      escreval("Tabuada do 4: ")
+      para x de 4 ate 40 passo 4 faca
+           escreval(" ",x)
+      fimpara
+
+      escreval("Tabuada do 5: ")
+      para x de 5 ate 50 passo 5 faca
+           escreval(" ",x)
+      fimpara
+      
+      escreval("Tabuada do 6: ")
+      para x de 6 ate 60 passo 6 faca
+           escreval(" ",x)
+      fimpara
+      
+      escreval("Tabuada do 7: ")
+      para x de 7 ate 70 passo 7 faca
+           escreval(" ",x)
+      fimpara
+      
+      escreval("Tabuada do 8: ")
+      para x de 8 ate 80 passo 8 faca
+           escreval(" ",x)
+      fimpara
+      
+      escreval("Tabuada do 9: ")
+      para x de 9 ate 90 passo 9 faca
+           escreval(" ",x)
+      fimpara
+      
+      escreval("Tabuada do 10: ")
+      para x de 10 ate 100 passo 10 faca
+           escreval(" ",x)
+      fimpara
+      
+Fimalgoritmo

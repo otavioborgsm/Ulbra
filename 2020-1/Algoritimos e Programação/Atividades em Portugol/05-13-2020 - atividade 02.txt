@@ -1,0 +1,27 @@
+Algoritmo "02"
+//2. Escreva um programa que leia a altura de um número indeterminado de pessoas.
+// Calcule e exiba a média das alturas das pessoas.
+// O algoritmo deve ler uma altura e perguntar se a pessoa deseja continuar (S-sim ou N-não).
+// Quando a resposta for 'N', deve parar a leitura.
+// Utilizar a estrutura de repetição faça-enquanto (do while).
+Var
+   resposta: caracter
+   conta: inteiro
+   media, altura , soma: real
+
+Inicio
+      conta<-0
+      soma<-0
+      repita
+      escreva("Digite a altura (em cm): ")
+      leia(altura)
+      se (altura<>0)entao
+      soma <-soma+altura
+      conta <-conta+1
+      fimse
+      escreva("Deseja continuar? ")
+      leia(resposta)
+      ate resposta = "N"
+      media<- soma/conta
+      escreva("Média das alturas: ", media)
+fimalgoritmo

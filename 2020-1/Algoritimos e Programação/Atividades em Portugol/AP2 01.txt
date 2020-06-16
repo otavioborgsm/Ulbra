@@ -1,0 +1,71 @@
+Algoritmo "AP2 01"
+// Em uma rodovia existe um pedágio que precisa controlar o número de veículos que transitam e pagam pedágio.
+// O número de veículos que transitam nunca é uma quantidade específica.
+// Por isso, é necessário ler os dados dos veículos até que o operador do sistema decida parar parar as leituras.
+// Escreva um algoritmo, ou programa na linguagem C, que faça a leitura dos veículos que passam no pedágio.
+// Para cada veículo deve ser lido a placa(considere como um número inteiro) e o tipo do veículo.
+// -Os tipos aceitos e os valores por tipo estão abaixo:
+
+//Tipo do veículo - Valor do pedágio
+//1 . Automóvel - 12,80
+//2 . Moto - 8,20
+//3 . Caminhão - 22,20
+
+//Faça uma validação para aceitar somente os tipos definidos na tabela.
+
+//Após registrar a passagem de um veículo o sistema deve  perguntar se o operador deseja ler registrar outra passagem(s/n).
+
+//Quando o operador finalizar as leituras(responder N), o sistema deve escrever:
+//Número total de veículos que passaram no pedágio
+//Valor total arrecadado
+//Tipo de veículo que mais passou no pedágio
+
+Var
+tipo_veiculo, carro, moto, caminhao, total_veiculos, placa : inteiro
+valor: real
+resposta: caractere
+
+
+
+Inicio
+
+repita
+            repita
+            escreval("Informe o tipo do veículo (1- Carro, 2- Moto e 3- Caminhão): ")
+            leia(tipo_veiculo)
+            escreval("Informe a placa do veículo: ")
+            leia(placa)
+            ate((tipo_veiculo = 1)ou(tipo_veiculo = 2)ou(tipo_veiculo = 3))
+      se(tipo_veiculo = 1)entao
+      carro<- carro+ 1
+      valor<- valor+ 12.80
+      fimse
+      se(tipo_veiculo=2)entao
+      moto<- moto+1
+      valor<- valor+8.20
+      fimse
+      se(tipo_veiculo=3)entao
+      caminhao<-caminhao+1
+      valor<- valor+22.20
+      fimse
+      escreval("Deseja continuar?(S/N): ")
+      leia(resposta)
+      
+ate(resposta="N")
+total_veiculos<- carro+moto+caminhao
+escreval("Número total de veículos que passaram pelo pedágio: ",total_veiculos)
+escreval("Valor total arrecadado: ", valor)
+se((carro>moto)e(carro>caminhao))entao
+escreval("Tipo de veículo que mais passou no pedágio: Carro")
+fimse
+se((moto>carro)e(moto>caminhao))entao
+escreval("Tipo de veículo que mais passou no pedágio: Moto")
+fimse
+se((caminhao>carro)e(caminhao>moto))entao
+escreval("Tipo de veículo que mais passou no pedágio: Caminhão")
+fimse
+
+
+
+
+Fimalgoritmo

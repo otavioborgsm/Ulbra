@@ -1,0 +1,25 @@
+Algoritmo "03"
+//3. Escreva um algoritmo que leia diversos números inteiros, até que o usuário digite o valor ZERO.
+// Ao final (quando o usuário digitar ZERO), imprimir a quantidade de números negativos e a soma de todos os números positivos.
+Var
+resultado, conta, numero:inteiro
+
+
+Inicio
+repita
+      Escreva("Digite um número inteiro: ")
+      leia(numero)
+      se(numero>0)entao
+      resultado<-resultado+numero
+      escreval("A soma dos números positivos é: ",resultado)
+      fimse
+      se (numero <0)entao
+      conta<- conta+1
+      escreval("Total de números negativos: ",conta)
+      fimse
+      
+ate (numero=0)
+
+
+
+Fimalgoritmo

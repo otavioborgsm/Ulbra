@@ -1,0 +1,35 @@
+Algoritmo "AP2 02"
+// Em uma rodovia existe um posto de pesagem de veículos de carga.
+// O limite de peso admitido é de 28675,00kg.
+// Faça um algoritmo ou programa na linguagem C, que leia o peso do caminhão e verifique se ele está acima do limite.
+// Se estiver, o sistema deve escrever a mensagem "Carga acima do limite permitido, veículo sofrerá penalidade de multa!".
+//Seu sistema deve ler um número indeterminado de pesos de veículos de carga até que o peso zero seja digitado.
+//Informar o maior e menor peso de veículo que transitou na rodovia.
+
+Var
+peso, maior_peso, menor_peso: real
+
+
+
+
+
+Inicio
+      menor_peso<-10000000000000000000000000
+      repita
+            escreval("Para encerrar o sistema, digite 0")
+            escreval("Informe o peso bruto total do caminhão: ")
+            leia(peso)
+            se(peso >28675)entao
+            escreval("Carga acima do limite permitido, veículo sofrerá penalidade de multa!")
+            fimse
+            se(maior_peso < peso)entao
+            maior_peso<-  peso
+            fimse
+            se( (peso<>0)e(peso < menor_peso))entao
+            menor_peso<-  peso
+            fimse
+      ate(peso=0)
+escreval("Maior peso transitado pela rodovia: ",maior_peso)
+escreval("Menor peso transitado pela rodovia: ",menor_peso)
+
+Fimalgoritmo
