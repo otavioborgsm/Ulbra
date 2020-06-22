@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consumo de energia</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js">
+    </script>
+</head>
+<body>
+    <div id="divtitulo">
+        <h1>Calcule o seu consumo de Energia</h1>
+    </div>
+    <form action="#">
+        <Fieldset>
+            <label for="kwh">Kwh consumidos: </label>
+            <input type="text" id="kwh">
+            <br><br>
+            <label for="valor">Valor unitário do Kwh:</label>
+            <input type="text" id="valor">
+        </Fieldset>
+        <br>
+        <input type="button" onclick="calcular()" value="Calcular"/>
+        <label for="res"></label>
+    </form>
+    
+</body>
+</html>

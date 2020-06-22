@@ -1,0 +1,11 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#divtitulo{
+    width: 100%;
+    text-align: center;
+}
+#divresultado{
+    width: 100%;
+    padding-left: 10px;
+}

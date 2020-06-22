@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>java</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <div id="divh1">
+        <h1>A e B são dois dados de entrada para uma porta lógica, digite 1 para "true" e 0 para "false" e receberá os resultados.</h1>
+    </div>
+    <form action="#">
+        <fieldset>
+            <legend>Calcule aqui</legend>
+            <br>
+            <label for="a">Valor A: </label>
+            <input type="text" id="a" required>
+            <br><br>
+            <label for="b">Valor B: </label>
+            <input type="text" id="b" required>
+            <br><br>
+            <input type="button" value="Calcular" onclick="calcular()">
+            <br>
+        </fieldset>
+    </form>
+    <br>
+    <div id="divresultados">
+        <h2>NOT</h2>
+        <label id="nota"></label>
+        <br>
+        <label id="notb"></label>
+        <br><br>
+        <h2>AND</h2>
+        <label id="note"></label>
+        <br>
+        <label id="and"></label>
+        <br><br>
+        <h2>OR</h2>
+        <label id="notor"></label>
+        <br>
+        <label id="or"></label>
+        <br><br>
+        <h2>XOR</h2>
+        <label id="notxor"></label>
+        <br>
+        <label id="xor"></label>
+    </div>
+
+    
+</body>
+</html>

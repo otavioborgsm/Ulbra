@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idade</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <div id="dividades">
+        <h2>Digite idades separadas por vírgula, e então descubra a qauntidade de maiores e menores de idade</h2>
+    </div>
+    <form action="#">
+        <fieldset>
+            <br>
+            <label for="idades">Digite as idades: </label>
+            <input type="text" id="idades">
+            <br><br>
+            <input type="button" onclick="calcular()" value="Calcular"/>
+            <br>
+        </fieldset>
+    </form>
+    <div id="divresultado">
+        <h2 id="resultado1"></h2>
+        <br><br>
+        <h2 id="resultado2"></h2>
+    </div>
+</body>
+</html>

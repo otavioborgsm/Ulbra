@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js">
+    </script>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!-- /bootstrap-->
+</head>
+<body>
+    <section class="container">
+        <div class="row">
+            <div class="col-12" id="titulo">
+                <h1>CALCULADORA</h1>
+            </div>
+        </div>
+        <form name="form" action="#">
+            <h3>Realize suas operações matemáticas: </h3>
+            <br>
+            <label for="numero1">Número 1: </label>
+            <input type="text" id="numero1">
+            <br> <br>
+            <label for="operacao">Selecione a operação:</label>
+            <select name="operacao" id="operacao" >
+                <option value="1" >Somar</option>
+                <option value="2" >Subtrair</option>
+                <option value="3" >Multiplicar</option>
+                <option value="4" >Dividir</option>
+            </select>
+            <br><br>
+            <label for="numero2">Número 2:</label>
+            <input type="text" id="numero2">
+            <br><br>
+            <input type="button" onclick="calcular()" value="Calcular"/>
+            <br><br>
+            <h2>Resultado:</h2>
+            <br>
+            <h3 id="resultado"></h3>
+
+        </form>
+    </section>
+</body>
+</html>
