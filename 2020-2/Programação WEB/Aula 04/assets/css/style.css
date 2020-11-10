@@ -1,0 +1,9 @@
+body{
+    background-color: black;
+}
+article{
+    text-align: justify;
+}
+.divHino{
+    text-align: center !important;
+}

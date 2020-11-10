@@ -1,0 +1,30 @@
+<h1>Insere cliente</h1>
+<form action="?controller=clients&action=insertClientAction" method=POST enctype='multipart/form-data'>
+   <div class="form-group">
+       <div>
+           <label for="name">Nome:</label>
+           <input type="text" class="form-control" name="name" >
+       </div>
+       <div>
+           <label for="email">Email:</label>
+           <input type="mail" class="form-control" name="email">
+       </div>
+       <div>
+           <label for="tel">Telefone:</label>
+           <input type="text" class="form-control" name="phone" >
+       </div>
+       <div>
+           <label for="end">Endereço:</label>
+           <input type="text" class="form-control" name="address">
+       </div>
+
+       <div>
+            <label for="photo">Foto: </label>
+            <input type="file" name="photo" accept="image/png, image/jpeg" class="form-control">
+       </div>
+       <br>
+ 
+       <br>
+       <button type="submit" class="btn btn-success">Salvar</button>
+   </div>
+</form>
