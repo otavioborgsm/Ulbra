@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O novo Coronavírus</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="icon" href="images/icon.png">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!-- /bootstrap-->
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-info navbar-dark">
+        <a href="#nav" class="navbar-brand">COVID-19</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nav">
+            <ul class="navbar-nav smooth-scroll">
+                <li class="nav-item">
+                    <a href="#proteger" class="nav-link ">Como se proteger</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#calculo" class="nav-link ">Cálculo de contágio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#denuncias" class="nav-link">Denúncias</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <header>
+        <div>
+            <h1 class="titulos container">O Novo Coronavírus</h1>
+        </div>
+        <div id="demo" class="carousel slide container" data-ride="carousel">
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/lavarmaos.jpg" alt="maos" class="headerImages">
+                <div class="carousel-caption">
+                  <a href="#lavar-maos" class="bordaTexto"><h3>A importância de lavar as mãos</h3></a>
+                </div>   
+              </div>
+              <div class="carousel-item">
+                <img src="images/mascara.jpg" alt="mascara" class="headerImages">
+                <div class="carousel-caption">
+                  <a href="#mascaras" class="bordaTexto"><h3>O uso das máscaras de tecido</h3></a>
+                </div>   
+              </div>
+              <div class="carousel-item">
+                <img src="images/distanciamento.jpg" alt="distanciamento" class="headerImages">
+                <div class="carousel-caption">
+                    <a href="#distanciamento" class="bordaTexto"><h3>O Distanciamento Social</h3></a>
+                </div>   
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </header>
+    <section>
+        <article>
+            <div id="proteger">
+                <div class="container-fluid blue">
+                    <div class="container titulos">
+                        <h1>Como se proteger do Covid-19:</h1>
+                    </div>
+                    <div class="container">
+                        <p>Para se proteger e evitar a proliferação do vírus, o Ministério da Saúde recomenda medidas básicas de higiene, como lavar bem as mãos (dedos, unhas, punho, palma e dorso) com água e sabão, e, de preferência, utilizar toalhas de papel para secá-las.</p>
+                        <p>Além do sabão, outro produto indicado para higienizar as mãos é o álcool gel, que também serve para limpar objetos como telefones, teclados, cadeiras, maçanetas, etc. Para a limpeza doméstica recomenda-se a utilização dos produtos usuais, dando preferência para o uso da água sanitária (em uma solução de uma parte de água sanitária para 9 partes de água) para desinfetar superfícies.</p>
+                        <p>Utilizar lenço descartável para higiene nasal é outra medida de prevenção importante. Deve-se cobrir o nariz e a boca com um lenço de papel quando espirrar ou tossir e jogá-lo no lixo. Também é necessário evitar tocar olhos, nariz e boca sem que as mãos estejam limpas.</p>
+                        <p>Para a higienização das louças e roupas, recomenda-se a utilização de detergentes próprios para cada um dos casos. Destacando que é importante separar roupas e roupas de cama de pessoas infectadas para que seja feita a higienização à parte. Caso não haja a possibilidade de fazer a lavagem destas roupas imediatamente, a recomendação é que elas sejam armazenadas em sacos de lixo plástico até que seja possível lavar.</p>
+                        <p>Além disso, as máscaras faciais descartáveis devem ser utilizadas por profissionais da saúde, cuidadores de idosos, mães que estão amamentando e pessoas diagnosticadas com o coronavírus. Também é importante que as pessoas comprem antecipadamente e tenham em suas residências medicamentos para a redução da febre, controle da tosse, como xaropes e pastilhas, além de medicamentos de uso contínuo.</p>
+                        <p>Produtos de higiene também devem ser comprados e armazenados como uma medida de prevenção. No caso das crianças, recomenda-se que os pais ou responsáveis, adquiram fraldas e outro produtos em uma maior quantidade para que se evite aglomerações em supermercados e farmácias.</p>
+                    </div>
+                </div>
+                <div class="row container" id="cards">
+                    <div class="col-md-4">
+                        <div class="card" id="lavar-maos">
+                            <iframe class="card-top-image" src="https://www.youtube.com/embed/rsQlyIwetsE"></iframe>
+                            <div class="card-body">
+                            <h4 class="card-title">A importância de higienizar as mãos frequentemente:</h4>
+                            <p class="card-text">O sabão rompe a membrana de gordura que os vírus possuem, fazendo com que "morram". Por isso, segundo a OMS (Organização Mundial da Saúde), lavar as mãos com água e sabão frequentemente é uma das principais formas de evitar a contaminação do vírus.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card" id="mascaras">
+                            <iframe class="card-top-image" src="https://www.youtube.com/embed/3r0VuzYTZzE"></iframe>
+                            <div class="card-body">
+                            <h4 class="card-title">A importância do uso das máscaras de tecido:</h4>
+                            <p class="card-text">Nenhuma máscara garante 100% de proteção. Porém, o acessório, até mesmo a máscara de tecido feita em casa, é capaz de impedir que partículas maiores de secreções (saliva, por exemplo) contaminadas cheguem até seu nariz e sua boca. Além disso, evita que o doente espalhe secreções pelo ambiente.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card" id="distanciamento">
+                            <iframe class="card-top-image" src="https://www.youtube.com/embed/4xi4teprGms"></iframe>
+                            <div class="card-body">
+                            <h4 class="card-title">O distanciamento social:</h4>
+                            <p class="card-text">O distanciamento social foi adotado por diversos países como uma forma de conter a propagação da COVID-19. Dentre as medidas que o compõem, podemos destacar: a necessidade de não formar-se aglomerações; a manunteção da distância de, no mínimo, 1,5 metro entre as pessoas; e o pouco ou nenhum contato físico.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="calculo" class="container-fluid blue">
+                <div class="container">
+                    <div class="container titulos">
+                        <h1>Cálculo de contágio</h1>
+                        <p id="media">(Com base na taxa de contágio do Brasil)</p>
+                    </div>
+                    <div class="row container">
+                        <div class="col-md-6">
+                            <label for="select">Você cumpre o isolamento social?</label>
+                            <br>
+                            <select name="select" id="select" class="form-control">
+                                <option value="1">Sim</option>
+                                <option value="2">Não</option>
+                            </select>
+                            <br>
+                            <label for="pessoas">Com quantas pessoas você convive por dia?</label>
+                            <br>
+                            <input type="number" id="pessoas" class="form-control">
+                            <br>
+                            <button type="button" class="btn btn-light" onclick="calcular()">Calcular</button>
+                            <br><br>
+                        </div>
+                        <div class="col-md-6" id="lista">
+                            <div class="container-fluid">
+                                <p id="isolamento">Resultado:</p>
+                            </div>
+                            <div class="container-fluid">
+                                <ul class="list-group">
+                                    <li class="list-group-item" id="seteDias">Em 7 dias: </li>
+                                    <li class="list-group-item" id="quatorzeDias">Em 14 dias: </li>
+                                    <li class="list-group-item" id="trintaDias">Em 30 dias:</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid" id="denuncias">
+                <div class="titulos">
+                    <h1>Denúncias</h1>
+                </div>
+                <div class="container">
+                    <p>Devido ao crescimento do número de denúncias de violações dos direitos humanos relacionadas ao novo coronavírus (Covid-19), o Disque 100 abriu canal específico para atender à demanda. O serviço é oferecido pelo Ministério da Mulher, da Família e dos Direitos Humanos (MMFDH) e, entre os dias 17 e 25 de março, recebeu mais de 7 mil ligações e já registrou quase mil denúncias referentes ao tema.</p>
+                    <p>De acordo com dados fornecidos pela Ouvidoria Nacional de Direitos Humanos (ONDH), área responsável por receber e encaminhar as denúncias aos órgãos de proteção, o aumento da procura pelo Disque 100 coincidiu com o período em que governos estaduais e municipais impuseram medidas restritivas como forma de tentar conter a propagação da doença.</p>
+                    <p>As principais violações registradas são de exposição de risco à saúde, maus tratos e ausência de recursos para sustento familiar decorrente do impedimento ao deslocamento e acesso a locais e espaços públicos e privados.</p>
+                    <p>No Rio Grande do Sul, as denúncias estão sendo recebidas pelo Disque-Denúncia 181 (em Porto Alegre devem ser realizadas pelo telefone 156), gerenciado pelo Departamento de Inteligência da Segurança Pública (Disp), da Secretaria da Segurança Pública (SSP). Também é possível encaminhar informações pela internet, por meio do <a id="denuncia" href="https://ssp.rs.gov.br/denuncia-digital">Denúncia Digital 181</a>. Em ambos os casos, o contato é totalmente anônimo e sigiloso.</p>
+                </div>
+            </div>
+        </article>
+    </section>
+    <footer class="page-footer font-small indigo">
+        <div class="container text-center text-md-left">
+            <div class="row">
+                <div class="col-md-3 mx-auto">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Você precisa saber:</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                        <a href="https://coronavirus.saude.gov.br/sobre-a-doenca#o-que-e-covid">O que é Covid-19</a>
+                        </li>
+                        <li>
+                        <a href="https://coronavirus.saude.gov.br/sobre-a-doenca#sintomas">Quais são os sintomas</a>
+                        </li>
+                        <li>
+                        <a href="https://coronavirus.saude.gov.br/sobre-a-doenca#transmissao">Como é transmitido</a>
+                        </li>
+                        <li>
+                        <a href="https://coronavirus.saude.gov.br/sobre-a-doenca#diagnostico">Diagnóstico</a>
+                        </li>
+                        <li>
+                            <a href="https://coronavirus.saude.gov.br/sobre-a-doenca#como-se-proteger">Como se proteger</a>
+                        </li>
+                        <li>
+                            <a href="https://coronavirus.saude.gov.br/sobre-a-doenca#se-eu-ficar-doente">Se eu ficar doente</a>
+                        </li>
+                        <li>
+                            <a href="https://coronavirus.saude.gov.br/sobre-a-doenca#servico-de-saude">Serviço de saúde</a>
+                        </li>
+                        <li>
+                            <a href="https://www.saude.gov.br/fakenews">Fake news</a>
+                        </li>
+                        <li>
+                            <a href="https://coronavirus.saude.gov.br/index.php/perguntas-e-respostas">Perguntas frequentes</a>
+                        </li>
+                    </ul>
+                </div>
+                <hr class="clearfix w-100 d-md-none">
+                <div class="col-md-3 mx-auto">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Principais portais de notícias:</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="https://g1.globo.com/bemestar/coronavirus/">G1</a>
+                        </li>
+                        <li>
+                            <a href="https://noticias.r7.com/saude/novo-coronavirus">R7</a>
+                        </li>
+                        <li>
+                            <a href="https://www.cnnbrasil.com.br/saude">CNN Brasil</a>
+                        </li>
+                        <li>
+                            <a href="https://noticias.uol.com.br/coronavirus">UOL</a>
+                        </li>
+                    </ul>
+                </div>
+                <hr class="clearfix w-100 d-md-none">
+                <div class="col-md-3 mx-auto">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Ulbra</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="https://www.ulbra.br/coronavirus">Coronavírus</a>
+                        </li>
+                        <li>
+                            <a href="https://servicos.ulbra.br/ava/login/">Aula</a>
+                        </li>
+                        <li>
+                            <a href="https://servicos.ulbra.br/pls/ulbra24/AAMAIN.Login">Autoatendimento</a>
+                        </li>
+                        <li>
+                            <a href="https://www.ulbra.br/vestibular/torres#inscreva-se">Vestibular</a>
+                        </li>
+                    </ul>
+                </div>
+                <hr class="clearfix w-100 d-md-none">
+                <div class="col-md-3 mx-auto">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Redes Sociais:</h5>
+                    <ul class="list-unstyled">
+                        <div id="icons">
+                            <a href="https://pt-br.facebook.com/ulbra.torres/">
+                                <i class="fab fa-facebook-f fa-lg white-text fa-2x"> </i>
+                            </a>
+                            <br><br>
+                            <a href="https://twitter.com/ulbratorres">
+                                <i class="fab fa-twitter fa-lg white-text fa-2x"> </i>
+                            </a>
+                            <br><br>
+                            <a href="https://www.instagram.com/ulbratorres/?hl=pt-br">
+                                <i class="fab fa-instagram fa-lg white-text fa-2x"> </i>
+                            </a>
+                            <br><br>
+                            <a href="https://www.flickr.com/photos/ulbratorres/">
+                                <i class="fab fa-flickr fa-lg white-text fa-2x"></i>
+                            </a>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright text-center py-3">2020 -
+            <a href="https://www.ulbra.br/torres">Ulbra Torres</a>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,75 @@
+html{
+    scroll-behavior: smooth
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a, a:link, a:hover, a:visited{
+    text-decoration: none;
+    color: white;
+}
+p{
+    text-align: justify;
+}
+iframe{
+    width: 100%;
+}
+footer{
+    background-color:#17A2B8;
+}
+h5{
+    color: white;
+    padding-top: 20px;
+}
+i{
+    margin: auto;
+}
+.headerImages{
+    width: 100%;
+}
+.titulos{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.textos{
+    text-align: justify;
+}
+.carousel{
+    padding-bottom: 30px;
+}
+.bordaTexto{
+    text-shadow: 0.1em 0.1em 0.2em black
+    }
+.blue{
+    background-color:#17A2B8;
+    color: white;
+    padding-bottom: 30px;
+}
+.list-group-item{
+    color: black !important;
+}
+.footer-copyright{
+    background-color: teal;
+    color: white;
+}
+#cards{
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#media{
+    text-align: center !important;
+}
+#lista{
+    margin: auto;
+}
+#denuncia{
+    color: black !important;
+}
+#denuncias{
+    padding-bottom: 30px;
+}
+#icons{
+    margin: auto;
+}
