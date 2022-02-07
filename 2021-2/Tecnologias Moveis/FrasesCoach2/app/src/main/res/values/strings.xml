@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Frases-Coach</string>
+    <string name="frasesCoach">O sonho é meu, porque não?!</string>
+    <string name="frasesCoachDois">Os covardes nunca tentam, os fracassados nunca terminam, e os vencedores nunca desistem!</string>
+    <string name="frasesCoachTres">Eu acreditei em mim mesmo, quando ninguém mais acreditou!</string>
+    <string name="frasesCoachQuatro">Em meu carro sempre haverá um espaço para quem esteve ao meu lado no ônibus.</string>
+    <string name="frasesCoachCinco">A dor maltrata, mas constrói escudos inabaláveis.</string>
+    <string name="frasesCoachSeis">Prefiro me arriscar fazendo algo que gosto perdidamente, do que se sentir perdido por não fazer o que amo.</string>
+    <string name="frasesCoachSete">Seja foda, o mundo tá cheio de nota 7!</string>
+    <string name="frasesCoachOito">Fracassar não é cair, é recusar a se levantar.</string>
+    <string name="frasesCoachNove">Se ela te quis no fracasso, ela te merece no sucesso!</string>
+    <string name="frasesCoachDez">Dê a volta por cima, mas não passe por cima das pessoas.</string>
+
+</resources>

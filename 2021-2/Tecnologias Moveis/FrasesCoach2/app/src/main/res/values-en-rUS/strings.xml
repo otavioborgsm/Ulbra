@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Coach-phrase</string>
+    <string name="frasesCoach">The dream is mine, why not?!</string>
+    <string name="frasesCoachDois">Cowards never try, losers never end, and winners never give up!</string>
+    <string name="frasesCoachTres">I believed in myself when no one else did!</string>
+    <string name="frasesCoachQuatro">In my car there will always be a space for whoever was beside me on the bus.</string>
+    <string name="frasesCoachCinco">Pain abuses but builds unshakable shields.</string>
+    <string name="frasesCoachSeis">I\'d rather take the risk of doing something I love, rather than feel lost for not doing what I love.</string>
+    <string name="frasesCoachSete">Be awesome, the world is full of 7 notes!</string>
+    <string name="frasesCoachOito">Failure is not falling, it is refusing to get up.</string>
+    <string name="frasesCoachNove">If she wanted you in failure, she deserves you in success!</string>
+    <string name="frasesCoachDez">Go around, but don\'t go over people.</string>
+</resources>
