@@ -1,8 +1,8 @@
 
-# Ulbra        <img src="https://www.ulbra.br/themes/img/site/logo-torres.png" alt="ulbra-logo"/>
+# <img src="https://www.ulbra.br/themes/img/site/logo-torres.png" alt="ulbra-logo"/>
 
 <h3><b>Minhas atividades acadêmicas.</b><h3>
-<br/><br/>
+<br/>
 <b>Semestres:</b>
 <br/><br/>
 <b>2020-1</b>
