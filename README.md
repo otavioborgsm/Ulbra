@@ -1,5 +1,5 @@
 
-#<img src="https://www.ulbra.br/themes/img/site/logo-torres.png" alt="ulbra-logo"/>
+# <img src="https://www.ulbra.br/themes/img/site/logo-torres.png" alt="ulbra-logo"/>
 
 <h3><b>Minhas atividades acadêmicas.</b><h3>
 <br/><br/>
